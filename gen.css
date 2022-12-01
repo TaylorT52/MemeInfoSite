@@ -1,0 +1,27 @@
+.navbar{
+    background-color: white; 
+}
+
+.navbar a{
+    color: black;
+}
+
+.navbar-brand img{
+    margin-right: 1vw;
+    border:black solid 1px;
+}
+
+.text-uppercase{
+    padding-top: 5vh;
+}
+
+footer{
+    background-color: white;
+}
+
+.footer-logo{
+    border:black solid 1px;
+    margin-top:5vh;
+    width:10vw;
+    height:auto;
+}
