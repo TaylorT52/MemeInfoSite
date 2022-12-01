@@ -6,3 +6,8 @@ h1{
 .row{
     margin-top:15vh;
 }
+
+.card{
+    margin-left:3vw;
+    margin-right:3vw;
+}
