@@ -1,13 +1,43 @@
 h1{
     margin-top:10vh;
     font-size: 45pt;
+    margin-bottom:10vh;
 }
 
-.row{
+.row ~ .cards{
     margin-top:15vh;
 }
 
 .card{
     margin-left:3vw;
     margin-right:3vw;
+}
+
+h2{
+    margin-top:10vh;
+}
+
+.abouttext{
+    width:35vw; 
+    height:auto; 
+}
+
+.layeredimgs img{
+    position:absolute;
+    height:auto;
+}
+
+.mainimg{
+    transform:translateY(-5vh);
+    width:80%; 
+}
+
+.smallimg{
+    width:50%;
+    transform:translate(22vw, 20vh);
+}
+
+.timeline{
+    background-color:black;
+    margin-top:15vh;
 }
