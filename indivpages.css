@@ -1,0 +1,8 @@
+.header-spaced{
+    padding-top:30vh;
+    padding-bottom:30vh;
+}
+
+.carousel-item > img{
+    height: 60vh;
+}
