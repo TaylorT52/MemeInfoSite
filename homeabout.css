@@ -49,11 +49,26 @@ h2{
     height:1vw;
 }
 
-.timeline-marker > p {
-    visibility:hidden; 
+.timeline-marker:hover{
+    background-color:pink;
 }
 
-.timeline-marker:hover > *{
-    transform:translate(-2vw, -5vh);
-    visibility:visible; 
+.timeline-marker:hover ~ *{
+    background-color:pink;
+    visibility: visible;
+}
+
+.timeline{
+    transform: translateX(4vw);
+}
+
+.timeline-line{
+    transform:translateY(0.25vh);
+    border:2px black solid;
+}
+
+.col > p{
+    visibility:hidden; 
+    padding-left:1vw;;
+    transform:translateX(-5vw);
 }
