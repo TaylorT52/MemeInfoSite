@@ -38,8 +38,22 @@ h2{
     transform:translate(22vw, 20vh);
 }
 
-.timeline{
-    background-color:black;
-    height:1px;
+#timeline-line{
+    border: 2px solid black;
 }
 
+.timeline-marker{
+    background-color:black;
+    border-radius:50%;
+    width:1vw;
+    height:1vw;
+}
+
+.timeline-marker > p {
+    visibility:hidden; 
+}
+
+.timeline-marker:hover > *{
+    transform:translate(-2vw, -5vh);
+    visibility:visible; 
+}

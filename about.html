@@ -8,11 +8,12 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
+        <script type="text/javascript" src="about.js"></script>
         <!-- Your Personal CSS BELOW this Line -->
         <link href="gen.css" type="text/css" rel="stylesheet">
         <link href="homeabout.css" type="text/css" rel="stylesheet">
     </head>
-    <body>
+    <body onload="populateTimeline()">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.jpeg" width="40" height="30" alt="">
@@ -58,10 +59,41 @@
             <br><br>
             <h2>More about</h2>
             <br><br><br><br>
-            <div class="fulltimeline">
-                <div class="vertical"></div>
-                <hr class="timeline">
+
+            <hr id="timeline-line">
+            <div id="timeline-items" class="row">
+                <div class="col-sm">
+                    <div class="timeline-marker"><p>Memes are invented!</p></div>
+                </div>
+                <div class="col-sm">
+                    <div class="timeline-marker"><br><p>1995</p></div>
+                </div>
+                <div class="col-sm">
+                    <div class="timeline-marker"><br><p>1995</p></div>
+                </div>
+                <div class="col-sm">
+                    <div class="timeline-marker"><br><p>1995</p></div>
+                </div>
+                <div class="col-sm">
+                    <div class="timeline-marker"><br><p>1995</p></div>
+                </div>
+                <div class="col-sm">
+                    <div class="timeline-marker"><br><p>1995</p></div>
+                </div>
+                <div class="col-sm">
+                    <div class="timeline-marker"><br><p>1995</p></div>
+                </div>
+                <div class="col-sm">
+                    <div class="timeline-marker"><br><p>1995</p></div>
+                </div>
+                <div class="col-sm">
+                    <div class="timeline-marker"><br><p>1995</p></div>
+                </div>
+                <div class="col-sm">
+                    <div class="timeline-marker"><br><p>1995</p></div>
+                </div>
             </div>
+
             <br><br><br><br>
             <h2>Defining Memes by Era</h2>
             <p>Source: <a href="https://www.timetoast.com/timelines/evolution-of-the-memes">Time Toast<a></p>
