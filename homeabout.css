@@ -102,3 +102,7 @@ h2{
 	margin-top: -10px;
 	transform: translate(-50%, -100%);
 }
+
+.row .cards{
+    width:80vw;
+}
