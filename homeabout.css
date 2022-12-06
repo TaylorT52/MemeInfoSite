@@ -1,3 +1,4 @@
+/*** home (some shared w/ about) ***/
 h1{
     margin-top:10vh;
     font-size: 45pt;
@@ -38,6 +39,7 @@ h2{
     transform:translate(22vw, 20vh);
 }
 
+/** about **/ 
 .timeline {
 	width:80vw;
 	height: 1vh;
@@ -108,8 +110,3 @@ h2{
     width:80vw;
 	margin-top:10vh;
 }
-
-footer{
-	margin-bottom:10vh;
-}
-
